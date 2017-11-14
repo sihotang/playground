@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "description": "Personal workbench for variant samples.",
+  "repository": "git@github.com:sihotang/playground.git",
+  "author": "Sopar Sihotang <soparsihotang@gmail.com>",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "d2s:start": "cd apps/d2s && yarn start",
+    "d2s:build": "cd apps/d2s && yarn build",
+    "d2s:test": "cd apps/d2s && yarn test",
+    "d2s:eject": "cd apps/d2s && yarn eject"
+  }
+}
